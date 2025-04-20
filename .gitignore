@@ -3,3 +3,6 @@ venv/
 
 #Ignore notes
 notes.txt .DS_Store
+
+#pychache
+__pycache__/
