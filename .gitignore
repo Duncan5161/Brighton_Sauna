@@ -1,0 +1,5 @@
+#Ignore virtual enviroment
+venv/
+
+#Ignore notes
+notes.txt .DS_Store
