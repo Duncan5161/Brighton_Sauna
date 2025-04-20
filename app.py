@@ -155,9 +155,7 @@ def quiz():
         sauna = "https://weather.metoffice.gov.uk/forecast/gcpchhy5p#?date=2025-04-11"
         Scraper(sauna).scrape()  
                 
-        #return render_template("thank_you.html"), {"Refresh": "3; 'result', dict=result_1, sauna_links=sauna_links_1, temp_list=temp_list"} #TO DO: Add delay then redirect to result 
-        return render_template("result.html", dict=result_1, sauna_links=sauna_links_1, temp_list=temp_list) #TO DO: Add delay then redirect to result
-        #return render_template("thank_you.html"), {"Refresh": "3; '/'"}
+        return render_template("result.html", dict=result_1, sauna_links=sauna_links_1, temp_list=temp_list) 
 
     else:
         return render_template("quiz.html")
