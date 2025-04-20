@@ -2,7 +2,10 @@
 venv/
 
 #Ignore notes
-notes.txt .DS_Store
+Notes.txt 
 
 #pychache
 __pycache__/
+
+#DS Store
+.DS_Store
