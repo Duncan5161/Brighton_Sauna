@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<form id="questions" class="form" action="/quiz" method="POST">
+
+<div class = "format"> 
+
+<h4> Sauna Quiz</h4> 
+
+<div class="question"> Answer as many or as few questions as you want </div>
+
+    <div> 
+        <div class="question"> Question 1 </div>    
+        <div> Do you want to be very close to the sea, such that you can easily use it for a cold plunge?  </div>
+        <input type="radio" id="Q1" name="Q1" value="yes"> Yes </input>  <input type="radio" id = "Q1" name="Q1" value="no"> No </input>
+    </div>
+
+    <div> 
+        <div class="question"> Question 2 </div>
+        <div> Do you want to be able to add ice balls to the sauna? </div>
+        <input type="radio" id="Q2" name="Q2" value="yes"> Yes </input>  <input type="radio" id = "Q2" name="Q2" value="no"> No </input>
+    </div>
+
+    <div> 
+        <div class="question"> Question 3 </div>
+        <div> Do you want to cool off in refrigerated water, rather than cold water from the tap? </div>
+        <input type="radio" id="Q3" name="Q3" value="yes"> Yes </input> <input type="radio" id = "Q3" name="Q3" value="no"> No </input>
+    </div>
+
+    <div> 
+        <div class="question"> Question 4 </div>
+        <div> Do you want multiple saunas available on site? </div>
+        <input type="radio" id="Q4" name="Q4" value="yes"> Yes </input> <input type="radio" id = "Q4" name="Q4" value="no"> No </input>
+    </div>
+
+    <div> 
+        <div class="question"> Question 5 </div>
+        <div> Do you prioritise having other facilities onsite, such as a swimming pool and bar? </div>
+        <input type="radio" id="Q5" name="Q5" value="yes"> Yes </input> <input type="radio" id = "Q5" name="Q5" value="no"> No </input>
+    </div>
+
+    <div> 
+        <div class="question"> Question 6 </div>
+        <div> What is the optimal sauna capacity for you? </div>
+        <input type="radio" id="Q6" name="Q6" value="6"> Six </input> <input type="radio" id = "Q6" name="Q6" value="8"> Eight </input> <input type="radio" id = "Q6" name="Q6" value="14"> Fourteen </input>
+    </div>
+
+    <div> 
+        <div class="question"> Question 7 </div>
+        <div> Would you prioritise being able to see the sea from the sauna? </div>
+        <input type="radio" id="Q7" name="Q7" value="yes"> Yes </input> <input type="radio" id = "Q7" name="Q7" value="no"> No </input> 
+    </div>
+
+    <div> 
+        <div class="question"> Question 8 </div>
+        <div> Do you want the option to book 30-minute slots (rather than an hour)? </div>
+        <input type="radio" id="Q8" name="Q8" value="yes"> Yes </input> <input type="radio" id = "Q8" name="Q8" value="no"> No </input> 
+    </div>
+
+    <div> 
+        <div class="question"> Question 9 </div>
+        <div> What is your preference for location? </div>
+        <input type="radio" id="Q9" name="Q9" value="Hove"> Hove </input> <input type="radio" id = "Q9" name="Q9" value="Kemptown"> Kemptown </input> <input type="radio" id = "Q9" name="Q9" value="No_Preference"> No Preference </input>
+    </div>
+
+    <div> 
+        <div class="question"> Question 10 </div>
+        <div> Do you prefer to book on the day or book in advance? </div>
+        <input type="radio" id="Q10" name="Q10" value="day"> Book on the Day </input> <input type="radio" id = "Q10" name="Q10" value="Advance"> Book in Advance </input> <input type="radio" id = "Q10" name="Q10" value="No_Preference"> No Preference </input>
+    </div>
+
+    <div class = "space"> 
+    <button class="button" id="submit" type="submit"> Submit </button>
+    </div>
+
+</div>
+
+</form>
+
+<div class="padding"> </div>
+
+{% endblock %} 

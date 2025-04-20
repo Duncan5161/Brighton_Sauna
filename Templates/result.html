@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+{% for row in dict %}
+<h5 id = "result" class="result"> Your chosen Sauna is: <div class="result_1"> {{row.Result}} </div> </h5>
+{% endfor %}
+
+<h6 id = "result" class="find_out_more"> To find out more about your chosen sauna(s), including booking options, please see below: </h6> {% for row in sauna_links %}
+<div class="web_links"> <a href = {{row.Saunadelic_link}} target="blank"> {{row.Saunadelic}} </a> </div> 
+<div class="web_links"> <a href = {{row.Luna_Hut_link}} target="blank"> {{row.Luna_Hut}} </a> </div>  
+<div class="web_links"> <a href = {{row.BeachBox_link}} target="blank"> {{row.Beach_Box}} </a> </div>
+
+{% endfor %}
+
+<div class="scraped_data"> Current temperature in Brighton: {% for temp in temp_list %} {{ temp.Temperature }} {% endfor %} Celcius</div>
+
+<h5 class="thankyou"> Thank you for using Sauna Selector, enjoy the sauna! </h5>
+
+{% endblock %} 

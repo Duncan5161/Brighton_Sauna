@@ -1,0 +1,124 @@
+1. Install virtual enviroment DONE - to activate (from Sauna Project folder) use '.venv/bin/activate'
+1.5 Install Homebrew to allow installation of developer talls and Github DONE 
+2. Write HMTL page(s) DONE
+3. Add CSS DONE
+4. ADD JS DONE [not required]
+
+
+TO DO
+- Solve double venv (does not seem to be a real venv before my name)
+- Why won't it load changes without closing and opening programme DONE (needs to save to re-load new code; autosave was turned off)
+- Why want CSS load DONE (';' ommitted from some styles)
+- Why doesn't scraper work DONE
+- Why won't 'sauna selector' appear in nav bar DONE
+- Why does result appear as '/quiz'
+
+Notes: Python intepreter was not the same as my as that in my virtual enviroment - searched for Python Intepreter and selected Venv - think it is same one but how canI check?
+Install Jinja but not required to write out libraries in Python file 
+
+Web links all techncially showing but hidden on page as it is rendered in HTML
+
+Beautiful soup intalled
+
+*Give answers same name to only allow one to be selected*
+*export FLASK_ENV=development
+export FLASK_DEBUG=1
+flask run* Activates debug mode
+* command + and , = settings *
+* New line without submitting= option+Enter*
+* Go back and Install Brew Path *
+* Work out how to execute file from command line * 
+
+- Use += in that order to add one (shortening of variable = variable +1)
+
+1. File outline
+
+App.py
+
+Connects to flask
+
+Contains secret key
+
+Imports library for scraping
+
+Database connection if necessary
+
+Has decorator for each HTML file: layout.html
+
+Index.html – intro
+
+Info.html – info about website and my details
+
+Quiz.html – has questions for user to answer
+
+Layout.html
+
+
+Styles.css
+
+Has more substantial frontend than last project – using Bootstrap
+
+
+Schema.txt
+
+Schema of SQLite3 database
+
+
+Readme.md
+
+Overview of app
+
+
+2. Database – not required; or could store each users answer
+
+If used, use SQLite3 again
+
+
+3. Implementation
+
+a. Write HTML pages as above as static pages
+
+b. Write CSS to produce good front end
+
+c. Connect to Python using flask
+
+d. Write out each file decorator and corresponding code
+
+e. Test and debug
+
+
+4. Questions and code for recording answers
+
+Saunadelic 
+Beachbox
+
+Luna Hut
+
+
+i. Do you want to be very close to the sea?
+
+(Beachbox ++; Luna Hut ++)
+
+ii. Do you want to be able to add ice balls and scents to the sauna?
+
+(Beachbox ++; Saunadelic ++)
+
+iii. Do you need an ice bath with refrigerated water?
+
+(Beachbox ++)
+
+iv. Do you want multiple saunas available on site? (Beachbox ++)
+
+v. Do you want other facilities, such as a swimming pool and bar, onsite? (Luna Hut ++)
+
+vi. What is the optimal sauna capacity for you?
+
+– 6 (Beachbox ++) – 8 (Saundelic ++) or 14 (Luna Hut ++; Beachbox ++)
+
+vii. Where would you rather visit to go to the sauna? – Hove (Saundelic ++); Kemptown (Luna Hut++; Beachbox ++)
+
+viii. TBC
+
+ix. TBC
+
+x. TBC
