@@ -10,7 +10,7 @@ Bootstrap: Used to create the Nav Bar seen at the top of the page.
 Jinja: Loops used to render information via dictionaries. 
 
 # Installation 
-1.  Clone the repository: `git clone <repository_url>` TO DO
+1.  Clone the repository: `git clone <https://github.com/Duncan5161/Brighton_Saunal>` 
 2.  Create a virtual environment: `python3 -m venv venv`
 3.  Activate the environment: `source venv/bin/activate`
 4.  Install dependencies: `pip install -r requirements.txt
@@ -21,7 +21,7 @@ Jinja: Loops used to render information via dictionaries.
 3. Access the app in your browser: http://127.0.0.1:5000
 
 # Deployment
-TO DO: ADD URL
+The final website was pushed to Gitbut, then hosted via Python Anywhere. The live demo via Python Anywhere is here: https://duncan51.eu.pythonanywhere.com/
 
 # Author 
 Duncan Shallard-Brown - duncan51@hotmail.co.uk
