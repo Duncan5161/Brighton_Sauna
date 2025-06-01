@@ -21,7 +21,7 @@ Jinja: Loops used to render information via dictionaries.
 3. Access the app in your browser: http://127.0.0.1:5000
 
 # Deployment
-The final website was pushed to Gitbut, then hosted via Python Anywhere. The live demo via Python Anywhere is here: https://duncan51.eu.pythonanywhere.com/
+The final website was pushed to Github, then hosted via Python Anywhere. The live demo via Python Anywhere is here: https://duncan51.eu.pythonanywhere.com/
 
 # Author 
 Duncan Shallard-Brown - duncan51@hotmail.co.uk
